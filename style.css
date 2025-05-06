@@ -36,6 +36,7 @@ a {
     background-color: #0070A0;
     padding: 6px 20px;
     border: none;
+    font-family: "Inter", sans-serif;
 }
 h1 {
     font-family: "Fraunces", serif;
@@ -162,12 +163,9 @@ h2, h3 {
     display: flex;
     align-items: end;
     width: 730px;
-} 
+}
 .about-block-item:nth-child(2) {
     margin: 0 32px;
-}
-.about-block-item h3 {
-    font-size: 25px;
 }
 .about-block-item p {
     line-height: 24px;
@@ -187,7 +185,6 @@ h2, h3 {
     font-weight: 200;
 }
 .track-block-info h2 {
-    font-size: 42px;
     margin-bottom: 21px;
     width: 350px;
 }
@@ -195,6 +192,12 @@ h2, h3 {
     font-size: 18px;
     margin-bottom: 17px;
     width: 480px;
+}
+.track-block-info button {
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    font-weight: 200;
+
 }
 .track-block-list li:nth-child(2) {
     margin: 11px 0;
@@ -206,65 +209,55 @@ h2, h3 {
     padding-left: 25px;
     margin-bottom: 27px;
 }
-.v{
-    margin-left: 8px;
-    margin-right: 8px;
-}
-
-
-.contrr {
-    display: grid;
-    grid-template-columns: repeat(4, 218px);
-    grid-template-rows: repeat(1, 235px);
-    column-gap: 68px;
-    grid-template-areas:
-      "header content 👾 footer";
-  }
-  
-  .tepm1 {
-    grid-area: header;
-  }
-  
-  .tepm2 {
-    grid-area: content;
-  }
-  
-  .tepm3 {
-    grid-area: 👾;
-  }
-  
-  .tepm4 {
-    grid-area: footer;
-  }
-
-.dgig{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 120px;
-    margin-bottom: 120px;
-}
-.barber{
-    width: 650px;
-    height: 55px;
-}
-.omg{
-    width: 650px;
-    height: 122px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 65px;
-}
-.banan{
+h2 {
     font-size: 42px;
-    color: #1F1F1F;
 }
-.capa{
-    font-size: 25px;
-    color: #1F1F1F;
+.task-title {
+    margin: 120px auto 21px auto;
 }
-.suda{
+.task-text {
+    width: 640px;
     font-size: 18px;
-    color: #1F1F1F;
+    line-height: 27px;
+}
+.task-block {
+    display: flex;
+    margin: 65px auto 120px auto;
+    justify-content: space-between;
+}
+.task-block-item {
+    width: 200px;
+}
+
+.task-block-item h3 {
+    margin: 13px auto;
+}
+h3 {
+    font-size: 25px;
+}
+
+.wew {
+    background-color:#F7F9FA;
+    padding: 80px 0;
+}
+.mosts {
+    display: flex;
+    justify-content: space-between;
+}
+.most {
+    background-color:#FFFFFF ;
+    width:360px ;
+}
+.post-block {
+    padding: 25px 24px 28px 24px;
+}
+.post-title {
+    background-color:#E6F7FF ;
+    color:#2C90C9;
+    padding: 2px 12px 4px 12px ;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 400;
 }
 .care-title1{
 
@@ -272,7 +265,7 @@ h2, h3 {
     padding-bottom: 80px;
 
 }
-.girl{
+.man{
     display: grid;
     grid-template-columns: repeat(4, 355px);
     grid-template-rows: repeat(1, 500px);
@@ -332,24 +325,24 @@ h2, h3 {
     height: 54px;
     width: 550px;
 }
-.trala{
+.memo{
     height: 370px;
     width: 1130px;
     background-color: #E6F7FF;
 }
-.crocodilo{
+.req{
     height: 258px;
     width: 480px;
     margin-left: 64px;
     margin-top: 64px;
     margin-bottom: 48px;
 }
-.gli{
+.qwer{
     height: 54px;
     width: 400px;
     margin-top: 21px;
 }
-.demo1 {
+.qwert {
     color: #FFFFFF;
     background-color: #0070A0;
     height: 43px;
@@ -357,7 +350,7 @@ h2, h3 {
     padding: 6px 20px;
     border: none;
 }
-.grrr{
+.red{
     column-gap: 36px;
     display: flex;
     font-family: "Inter", sans-serif;
@@ -368,13 +361,13 @@ h2, h3 {
     height: 216px;
     width: 1130px;
 }
-.nooo{
+.mama{
     color: #0070A0;
 }
 
 
 
- .girl2{
+ .zxc2{
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: repeat(1, );
@@ -383,49 +376,49 @@ h2, h3 {
       "content 👾 good footer ";
   }
   
-  .guss1 {
+  .zxc1 {
     grid-area: content;
     height: 216px;
     width: 432px;
   }
 
-  .aga6 {
+  .aza3 {
     grid-area: 👾;
     height: 216px;
     width: 216px;
   }
   
-  .aga7 {
+  .aza2 {
     grid-area: good;
     height: 216px;
     width: 216px;
   }
-  .aga8{
+  .aza1{
     grid-area: footer;
     height: 216px;
     width: 216px;
   }
 
-.gggoo{
+.go{
     height: 72px;
     width: 180px;
 }
-.asas{
+.pudge{
     font-family: "Inter", sans-serif;
     color: #626A72;
 } 
-.barabul{
+.btc1{
     margin-top: 64px;
 }
-.booom{
+.btc2{
     display: flex;
     justify-content: space-between;
     margin-top: 36px;
 }
-.god{
+.papa{
     margin-left: 20px;
 }
-.ffffss{
+.zxc{
     line-height: 0.19;
 }
 .input{
